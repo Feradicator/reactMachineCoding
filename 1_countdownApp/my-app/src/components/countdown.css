@@ -1,0 +1,66 @@
+.countdown {
+    display: flex;
+    flex-direction: column;         /* Stack elements vertically */
+    justify-content: center;        /* Center vertically */
+    align-items: center;            /* Center horizontally */
+    height: 100vh;                  /* Full viewport height */
+    transform: translateY(-20%); 
+  }
+.setTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .setTime input {
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  
+  .setTime button {
+    height: 53px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .setTime button:hover {
+    background-color: darkgreen;
+  }
+    .time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  .time span{
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  .time button {
+    height: 53px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .time button:hover {
+    background-color: darkgreen;
+  }
+  
+  
+  
