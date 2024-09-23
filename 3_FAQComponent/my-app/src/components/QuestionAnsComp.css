@@ -1,0 +1,21 @@
+.quesAns{
+    height:100px;
+    width: 350px;
+    background-color: rgb(107, 170, 149);
+    margin: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.quesAns{
+    cursor: pointer;
+}

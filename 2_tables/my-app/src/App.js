@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Countdown from './components/countdown';
-
+import ProductTable from './components/ProductTable';
 
 function App() {
   return (
     <div className="App">
-     <Countdown/>
-     
+     <ProductTable/>
     </div>
   );
 }
