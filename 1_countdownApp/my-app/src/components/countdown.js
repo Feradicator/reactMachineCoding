@@ -11,7 +11,8 @@ const Countdown = () => {
   useEffect(() => {
     let timer;
     if (isRuuning && timeleft > 0 && !isPause) {
-      timer = setInterval(() => {
+      timer = setInterval(() => {//timer variable reference to setinterval and is used when we need to clear interval,setinterval do change in settimeleft which 
+                                // triggers a re-render,before re-rendering useeffects return is called where we clear interval
         settimeleft((prev) => prev - 1);
       }, 1000);
       
